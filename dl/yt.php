@@ -12,50 +12,6 @@ if(!empty($thumb)){
 } else $thumbux = "http://dl4hut.xyz/img/logo.png";
 
 ?>
-<title>DLvidHUT : Download - <?php echo $title; ?> : Online All in One Video & Audio Downloader</title>
-<meta name="title" content="DLvidHUT : Download - <?php echo $title; ?> :  Online All in One Video & Audio Downloader">
-<meta name="description" content="DLvidHUT :  Download - <?php echo $title; ?> :  Online All in One Video & Audio Downloader From YouTube,Facebook,Twitter,Pinterest,Instagram,MXtakatak,IPL,HotStar and 1000+ More Sites too">
-<meta name="keywords" content="Video,Audio, Downloader, Online, YouTube, Facebook, Twitter, TikTok, MXTakatak, All-in-One,Online Downloader,AIO,<?php echo $title; ?>">
-<meta name="robots" content="index, follow">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="language" content="English">
-<meta name="revisit-after" content="5 days">
-<meta name="author" content="TheOfficialVKr">
-<meta itemprop="name" content="DLvidHUT :  Download - <?php echo $title; ?> :  Online All in One Video & Audio Downloader">
-<meta itemprop="description" content="Online All in One Video & Audio Downloader From YouTube,Facebook,Twitter,Pinterest,Instagram,MXtakatak,IPL,HotStar and 1000+ More Sites too">
-<meta itemprop="image" content="<?php echo $thumbux; ?>">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="DLvidHUT - Download - <?php echo $title; ?> :  Online All in One Video & Audio Downloader">
-<meta name="twitter:description" content="Online All in One Video & Audio Downloader From YouTube,Facebook,Twitter,Pinterest,Instagram,MXtakatak,IPL,HotStar and 1000+ More Sites too">
-<meta name="twitter:site" content="theofficialvkr">
-<meta name="twitter:creator" content="itsmethevkr">
-<meta name="twitter:image" content="<?php echo $thumbux; ?>"> 
-<meta property="og:title" content="DLvidHUT :  Download - <?php echo $title; ?> :  Online All in One Video & Audio Downloader">
-<meta property="og:description" content="Online All in One Video & Audio Downloader From YouTube,Facebook,Twitter,Pinterest,Instagram,MXtakatak,IPL,HotStar and 1000+ More Sites too">
-<meta property="og:image" content="<?php echo $thumbux; ?>">
-<meta name="twitter:image:src" content="http://dl4hut.xyz/stream.php?vkr=<?php echo $thumbux; ?>">
-<meta property="og:url" content="http://dl4hut.xyz/">
-<meta property="og:site_name" content="DLvidHUT :  Download - <?php echo $title; ?> :  Online All in One Video & Audio Downloader">
-<meta property="fb:app_id" content="427710135379286">
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="website">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="<?php echo $domain; ?>/img/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
-<link rel="apple-touch-icon" sizes="57x57" href="<?php echo $domain; ?>/img/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="<?php echo $domain; ?>/img/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="<?php echo $domain; ?>/img/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="<?php echo $domain; ?>/img/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="<?php echo $domain; ?>/img/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="<?php echo $domain; ?>/img/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="<?php echo $domain; ?>/img/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="<?php echo $domain; ?>/img/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $domain; ?>/img/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="<?php echo $domain; ?>/img/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="<?php echo $domain; ?>/img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="<?php echo $domain; ?>/img/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="<?php echo $domain; ?>/img/favicon-16x16.png">
 <link rel="manifest" href="<?php echo $domain; ?>/inc/manifest.json">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
@@ -66,60 +22,18 @@ if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/inc/servi
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<style type="text/css">
-  html, body
-  {
-    font-family: "Gotu"
-  }
-  input
-  {
-    padding: 5px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: blue;
-    transition-duration: 0.5s;
-    width: 80%;
-  }
-  input:focus
-  {
-    border-color: skyblue;
-    transition-duration: 0.5s;
-  }
-</style>
  </head>
-<body style="word-break: break-all;" class="bg-light">
-   <div class="text-center p-5">
-       		<a href="<?php echo $domain; ?>/">	<img src="<?php echo $domain; ?>/img/logo.png" width="200px" height="90px"></a>
-  </div>
-  <div class="text-center">
-   <h2> Paste a video url or name below and press on "Download". </h2><br><br>
-<form action="<?php echo $domain; ?>/sf.php" method="GET" class="mt-2">
-      <input required type="text" placeholder="Video URL or Name" class="mb-3" name="vkr"  value=""><br><br>
-      <button class="btn btn-success" type="submit">Download</button>
-</form>
-</div>
-<div class="m-5">
+<body >
+   
+<?php 
+$myYTLink = array("dla" => $dla , "vpdl" => $vpdl , "dlb" => $dlb, "dlc" => $dlc , "url" => $url ); 
+echo '{"data":' + json_encode($myYTLink) + '}';    
+?>
     
     
 <center>
 
-        <!-- ShareThis BEGIN --><div class="sharethis-inline-follow-buttons"></div><!-- ShareThis END --><br>
-<h2 style="word-break: break-all;">    
-Download <?php echo $title; ?>  
-<video poster="<?php echo urldecode($thumb); ?>" width="100%" height="340" controls>
-  <source src="https://streamytv.herokuapp.com/stream.php?url=<?php echo urlencode($dla); ?>" type="video/mp4">   
-  <source src="<?php echo $dla; ?>" type="video/mp4">
-    <source src="<?php echo $vpdl; ?>" type="video/mp4"> 
- <source src="<?php echo $dlb; ?>" type="video/mp4">
-  <source src="<?php echo $dlc; ?>" type="video/mp4">  
-  <source src="<?php echo $url; ?>" type="video/mp4">   
-  <source src="http://dl4hut.xyz/stream.php.php/?vkr=<?php echo $lloc; ?>" type="video/mp4"> 
-
-
-  Your browser does not support the video tag.
-</video> 
-<br><?php echo $channel.' - '.$desc; ?> . 
-Duration : <?php echo $duration; ?>
+  
 <?php
 if(!empty($mp3)){
     echo '<br>
@@ -464,17 +378,5 @@ else echo '';
     window.setInterval(function(){        if ($("input[name='vkr']").attr("placeholder") == "Video URL or Name") {            $("input[name='vkr']").attr("placeholder", "Video URL or Name");        }        else        {            $("input[name='vkr']").attr("placeholder", "Video URL or Name");        }    }, 3000);
     </script>    
 </body>  
-<style type="text/css">
-img[src*="000webhost"][style],
-body > div:nth-last-of-type(1)[style]{
-  opacity: 0 !important;
-  pointer-events:none !important;
-  width: 0px !important;
-  height: 0px !important;
-  visibility:hidden !important;
-  display:none !important;
-}
-img[src*="http://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] { display: none;}
-img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] { display: none;}
-</style>
+
 </html>  
