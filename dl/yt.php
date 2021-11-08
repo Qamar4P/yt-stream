@@ -28,12 +28,27 @@ if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/inc/servi
 <?php 
 $myYTLink = array("dla" => $dla , "vpdl" => $vpdl , "dlb" => $dlb, "dlc" => $dlc , "url" => $url ); 
 echo '{"data":' + json_encode($myYTLink) + '}';    
+
 ?>
-    
     
 <center>
 
-  
+<h2 style="word-break: break-all;">    
+<?php echo $title; ?>  
+<video poster="<?php echo urldecode($thumb); ?>" width="100%" height="340" controls>
+  <source src="https://streamytv.herokuapp.com/stream.php?url=<?php echo urlencode($dla); ?>" type="video/mp4">   
+  <source src="<?php echo $dla; ?>" type="video/mp4">
+    <source src="<?php echo $vpdl; ?>" type="video/mp4"> 
+ <source src="<?php echo $dlb; ?>" type="video/mp4">
+  <source src="<?php echo $dlc; ?>" type="video/mp4">  
+  <source src="<?php echo $url; ?>" type="video/mp4">   
+  <source src="http://dl4hut.xyz/stream.php.php/?vkr=<?php echo $lloc; ?>" type="video/mp4"> 
+
+
+  Your browser does not support the video tag.
+</video> 
+<br><?php echo $channel.' - '.$desc; ?> . 
+Duration : <?php echo $duration; ?>
 <?php
 if(!empty($mp3)){
     echo '<br>
@@ -354,29 +369,9 @@ else echo '';
 ?>    
 <br><a href="<?php echo $domain; ?>/dl/aio.php/?vkr=<?php echo $lloc; ?>">
 <button style="width:100%; background:red;"  class="btn btn-success"> More Format </button></a><br>
-</h2> <h1> How to Download </h1> <br>
-    1. To Download Instagram story search Like this - igs@USERNAME
-    <br>
-    2. To Download Instagram Highlights search Like this - igh@USERNAME 
-    <br>
-    3. To Download YouTube music search Like this - ytm@Music Name
-    <br>
-    4. To search Youtube video normally put video name in search box .   
-    <br>
-    5. Apart from all this just put link in search box to Download normally.
-   <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
-<br>
-<div id="google_translate_element"></div>
-    <script type="text/javascript">   function googleTranslateElementInit() {   new google.translate.TranslateElement({pageLanguage: 'en'},'google_translate_element' ); }  
-</script> <script type="text/javascript" src= 
-"https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"> 
- </script> </center>
-  <br>
-  </div>  
-</div>    
+ 
 <div class="bg-dark text-white" style="bottom: 0;width: 100%;padding:12px">Developed by <a target="_blank" href="https://www.instagram.com/theofficialvkr">Vijay Kumar</a> <span style="float: right;">Copyright &copy; <?php echo date("Y"); ?></span><br> .</div><script type="text/javascript">
     window.setInterval(function(){        if ($("input[name='vkr']").attr("placeholder") == "Video URL or Name") {            $("input[name='vkr']").attr("placeholder", "Video URL or Name");        }        else        {            $("input[name='vkr']").attr("placeholder", "Video URL or Name");        }    }, 3000);
     </script>    
-</body>  
-
+</body> 
 </html>  
